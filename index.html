@@ -7,8 +7,12 @@
 
   <!-- display based on device -->
   <meta name="viewport" content="width=device-width, initial-scale=" 1.0" />
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <!-- css -->
   <link rel="stylesheet" href="style/style.css" type="text/css" />
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 
 <header>
@@ -25,45 +29,58 @@
   <!-- description -->
   <div class="descriptionText">
     <h3>
-      Huddle re-imagines the way we build communities. You have a voice, but so
-      does your audience. Create connections with your users as you engage in
-      genuine discussion.
+      Huddle re-imagines the way we build communities. You have a voice, but
+      so does your audience. Create connections with your users as you engage
+      in genuine discussion.
     </h3>
   </div>
 
   <!-- demo image -->
-  <div>
-    <img class="demo-image" src="images/screen-mockups.svg" alt="" />
-  </div>
+  <div><img class="demo-image" src="images/screen-mockups.svg" alt="" /></div>
 
   <!-- signup header -->
   <div class="signUpForm">
-    <h1>Sign Up For Early</h1>
+    <h1><strong>Sign Up For Early</strong></h1>
     <form action="#">
       <div class="signup-email">
-        <input type="email" required /> <button>Register</button>
+        <input type="email" class="emailForm" placeholder="email@example.com" required /> <button>Register</button>
       </div>
     </form>
   </div>
 </body>
 
 <footer>
-  <!-- footer logo -->
-  <div class="footer-logo"><img src="images/logo.svg" alt="" /></div>
-  <!-- social media links -->
-  <div class="socialMediaLinks"><i></i> <i></i> <i></i></div>
-  <!-- footer links -->
-  <div class="footer-link">
-    <ul>
-      <li><a href="#">Access</a></li>
-      <li><a href="#">Register</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">What We Do</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Career</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
+  <div class="footer-elements">
+    <!-- footer logo -->
+    <div>
+      <img class="footer-logo" src="images/logo - White.png" alt="" />
+    </div>
+    <!-- footer links -->
+    <nav class="footer-link">
+      <ul>
+        <li><a class="nav-link" href="#">Access</a></li>
+        <li><a class="nav-link" href="#">Register</a></li>
+        <li><a class="nav-link" href="#">About Us</a></li>
+        <li><a class="nav-link" href="#">What We Do</a></li>
+        <li><a class="nav-link" href="#">FAQ</a></li>
+        <li><a class="nav-link" href="#">Career</a></li>
+        <li><a class="nav-link" href="#">Blog</a></li>
+        <li><a class="nav-link" href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- social media container
+    -->s
+  <div class="footer-socialMedia">
+    <!-- social media links -->
+    <div class="socialMediaLinks">
+      <!-- fb icon -->
+      <i class="fab fa-facebook-square"></i>
+      <!-- instagram icon -->
+      <i class="fab fa-instagram"></i>
+      <!-- twitter icon -->
+      <i class="fab fa-twitter-square"></i>
+    </div>
   </div>
 </footer>
 

@@ -1,6 +1,9 @@
 .logo.headerText.signupForm {
   display: flex;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 .logo {
   width: 150px;
@@ -27,4 +30,60 @@
   text-align: center;
   margin-top: 80px;
   margin-bottom: 100px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+
+.footer-logo {
+  width: 110px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.footer-elements {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-socialMedia {
+  display: flex;
+  flex-direction: row;
+  filter: invert(100%);
+}
+
+footer {
+  padding-top: 80px;
+  background-color: #00252e;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.7em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.emailForm {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding: 11px;
+  padding-right: 70px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #ff53c1;
+  padding: 0.7em;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
